@@ -1,8 +1,6 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const { rejects } = require('assert');
-const { resolve } = require('path');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
 
@@ -33,6 +31,12 @@ const questions = [
             return false;
         }
     }
+},
+{
+    type: 'list',
+    name: 'license',
+    message: 'What license are you using?',
+    choices: [ 'No License', 'MIT' ]
 },
 {
     type: 'input',
@@ -104,8 +108,8 @@ function init() {
  inquirer.prompt(questions)
  .then(questionData => {
      console.log(questionData);
-     const readmeFIle = generateMarkdown.generateMarkdown(questionData);
-     writeToFile('.README.md', readmeFIle);
+     const readMe = generateMarkdown(questionData);
+     writeToFile('.README.md', readMe);
  });
 };
 
