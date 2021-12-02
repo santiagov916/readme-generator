@@ -20,6 +20,12 @@ const questions = [
     }
 },
 {
+    type: 'list',
+    name: 'license',
+    message: 'What license are you using?',
+    choices: [ 'No License', 'MIT' ]
+},
+{
     type: 'input',
     name: 'description',
     message: 'Provide a thorough description of your project:',
@@ -33,20 +39,9 @@ const questions = [
     }
 },
 {
-    type: 'list',
-    name: 'license',
-    message: 'What license are you using?',
-    choices: [ 'No License', 'MIT' ]
-},
-{
     type: 'input',
     name: 'motivation',
     message: 'Please describe your motivation for this project, what it offers to others or what kind of problem it solves:',
-},
-{
-    type: 'input',
-    name: 'github',
-    message: 'Provide a Table of Contents',
 },
 {
     type: 'input',
@@ -61,7 +56,7 @@ const questions = [
 {
     type: 'input',
     name: 'commands',
-    message: 'What commands do you use to star the project?',
+    message: 'What commands do you use to start the project?',
 },
 {
     type: 'input',
@@ -84,7 +79,7 @@ const questions = [
 {
     type: 'input',
     name: 'link',
-    message: 'please enter a github link to this project',
+    message: 'Enter a github link to this project',
     validate: linkInput => {
         if (linkInput) {
             return true; 
@@ -93,6 +88,11 @@ const questions = [
             return false;
         }
     }
+},
+{
+    type: 'email',
+    name: 'email',
+    message: 'What is your email?'
 }
 ];
 
@@ -105,6 +105,11 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
+    console.log(`
+    ================
+    Add A New ReadMe
+    ================
+    `)
  inquirer.prompt(questions)
  .then(questionData => {
      console.log(questionData);

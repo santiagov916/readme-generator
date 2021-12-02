@@ -21,29 +21,65 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  return ``;
+  if(license === "MIT"){
+    return ' [License](#license)' ;
+
+  }else {
+    return "";
+  }
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(questionData) {
 
-  // usage
-  // commands
-  // link
-  //github
-  //
-  return `# ${questionData.title}
+  return `
+  
+  # ${questionData.title}
 
   ${renderLicenseBadge(questionData.license)}
   
-  ## description
   ## Table of Content
-  * [Motivation](#motivation)
-  * [Dependencies](#dependenices)
-  * [Contributors](#contributors)
-  * [Questions](#questions)
-  ${renderLicenseLink(questionData.license)}
   
+  * [Description](#description)
+  
+  * [Motivation](#motivation)
+  
+  * [Usage](#usage)
+  
+  * [Installation](#Installation)
+  
+  * [Contributors and more](#contributors)
+  
+  * [Questions](#questions)
+
+  ## Description
+
+  ${questionData.description}
+  
+  ## Motivation
+
+  ${questionData.motivation}
+
+  ## Usage
+
+  ${questionData.usage}
+
+  ## Installation 
+
+  ### Dependencies: ${questionData.dependencies}
+  ### To install: npm i OR npm install
+  ### CLI to start: ${questionData.commands}
+
+  ## Contributors
+
+  ### People: ${questionData.contributors}
+  ### GitHub Username: ${questionData.github}
+  ### GitHub Link to project: ${questionData.link}
+
+  ## Questions?
+
+  ### Email the programmer: ${questionData.email}
+  ### Video of the program in action: https:drive.google.com/
 
 `;
 }
