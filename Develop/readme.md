@@ -39,11 +39,11 @@
   ## Contributors
 
   ### People: Santiago Venegas, UC Davis, TA's, classmates, and Google
-  ### GitHub Username: santiagvo916
-  ### GitHub Link to project: https://github.com/santiagov916/readme-generator
+  ### GitHub Username: santiagov916
+  ### GitHub Link to project: https://github.com/santiagov916/readme-generator/tree/develop/Develop
 
   ## Questions?
 
   ### Email the programmer: svenegas24@yahoo.com
-  ### Video of the program in action: https:drive.google.com/
+  ### Video of the program in action: https://youfiles.herokuapp.com/videodictionary/?m=Video_Player_Drive&state=%7B%22ids%22:%5B%2217iGC9I9WaPv61WdioxaBdN0QmPrtZkb4%22%5D,%22action%22:%22open%22,%22resourceKeys%22:%7B%7D%7D
 

@@ -114,7 +114,7 @@ function init() {
  .then(questionData => {
      console.log(questionData);
      const readMe = generateMarkdown(questionData);
-     writeToFile('.README.md', readMe);
+     writeToFile('readme.md', readMe);
  });
 };
 
