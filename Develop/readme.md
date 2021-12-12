@@ -1,6 +1,6 @@
 
   
-  # Readme-Generator
+  # Lyric and Video page
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
@@ -20,31 +20,29 @@
 
   ## Description
 
-  I wanted to speed up my coding process and also challenge myself to create something helpful and useful not just for myself but coders abroad. I am happy with the turn out and look foward to updating the functionality of the program in the future! This program will create a nice touch on your projects as a coder and as a worksman of the craft at a much faster pace.
+  this a replicable lyric page for anyone who has a favorite artist and wants to make a cool webpage look with the lyrics for their favorite songs
   
   ## Motivation
 
-  This is a professional Readme-Generator for your work, professional line of work, side-hustles, self-employed work, business, for-fun projects, contributions, and everything in between! This readme-generator will answer most of the questions any new eyes will have when they come across your project.
+  I love music and it sucks when there's no lyrics for the song I want to listen to. So I took it upon myself to make a page that can do such!
 
   ## Usage
 
-  run this app inside of your terminal
+  click on this link
 
   ## Installation 
 
-  ### Dependencies: Node.js , FS , Inquirer
+  ### Dependencies: N/A
   ### To install: npm i OR npm install
-  ### CLI to start: node index or node index.js
+  ### CLI to start: no commands needed
 
   ## Contributors
 
-  ### People: Santiago Venegas, UC Davis, TA's, classmates, and Google
+  ### People: Mysel and google
   ### GitHub Username: santiagov916
-  ### GitHub Link to project: https://github.com/santiagov916/readme-generator/tree/develop/Develop
-  
+  ### GitHub Link to project: https://github.com/santiagov916/lyric-page
 
   ## Questions?
 
-  ### Email the programmer: svenegas24@yahoo.com
-  ### Video of the program in action: https://youfiles.herokuapp.com/videodictionary/?m=Video_Player_Drive&state=%7B%22ids%22:%5B%2217iGC9I9WaPv61WdioxaBdN0QmPrtZkb4%22%5D,%22action%22:%22open%22,%22resourceKeys%22:%7B%7D%7D
+  ### Email the programmer: gme.santi24@yahoo.com
 
