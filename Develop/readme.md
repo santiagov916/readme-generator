@@ -1,6 +1,5 @@
 
-  
-  # Lyric and Video page
+   # Readme Quick Generator
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
@@ -20,29 +19,28 @@
 
   ## Description
 
-  this a replicable lyric page for anyone who has a favorite artist and wants to make a cool webpage look with the lyrics for their favorite songs
+  This allows developers to create a quick, professional, front/back -end readme for a project
   
   ## Motivation
 
-  I love music and it sucks when there's no lyrics for the song I want to listen to. So I took it upon myself to make a page that can do such!
+  This was a learning project on the power of javascript outside of a browser environment. Also< I wanted to created a readme template to follow!
 
   ## Usage
 
-  click on this link
+  npm start
 
   ## Installation 
 
-  ### Dependencies: N/A
+  ### Dependencies: inquirer
   ### To install: npm i OR npm install
-  ### CLI to start: no commands needed
+  ### CLI to start: npm start
 
   ## Contributors
 
-  ### People: Mysel and google
+  ### People: handmade
   ### GitHub Username: santiagov916
-  ### GitHub Link to project: https://github.com/santiagov916/lyric-page
+  ### GitHub Link to project: https://github.com/santiagov916/readme-generator
 
   ## Questions?
 
-  ### Email the programmer: gme.santi24@yahoo.com
-
+  ### Email the programmer: santiago1venegas@gmail.com
