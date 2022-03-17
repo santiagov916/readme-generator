@@ -73,7 +73,7 @@ function generateMarkdown(questionData) {
   ## Contributors
 
   ### People: ${questionData.contributors}
-  ### GitHub Username: ${questionData.github}
+  ### GitHub username + link: [${questionData.github}](github.com/${questionData.github})
   ### GitHub Link to project: ${questionData.link}
 
   ## Questions?

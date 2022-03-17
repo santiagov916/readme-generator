@@ -1,14 +1,24 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js or npm start"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.3.1"
-  }
+    "inquirer": "^6.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santiagov916/potential-enigma.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/santiagov916/potential-enigma/issues"
+  },
+  "homepage": "https://github.com/santiagov916/potential-enigma#readme"
 }

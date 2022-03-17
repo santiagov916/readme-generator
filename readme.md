@@ -1,4 +1,5 @@
 
+  
    # Readme Quick Generator
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -32,15 +33,16 @@
   ## Installation 
 
   ### Dependencies: inquirer
-  ### To install: npm i OR npm install
-  ### CLI to start: npm start
+  ### To install: npm init -y, then npm i inquirer
+  ### CLI to start: node index.js or npm start
 
   ## Contributors
 
   ### People: handmade
-  ### GitHub Username: santiagov916
+  ### GitHub Username: [santiagov916](https://github.com/santiagov916)
   ### GitHub Link to project: https://github.com/santiagov916/readme-generator
 
   ## Questions?
 
   ### Email the programmer: santiago1venegas@gmail.com
+
